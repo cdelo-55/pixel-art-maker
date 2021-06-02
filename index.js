@@ -1,5 +1,14 @@
-document.addEventListener('click',function(){
-    let colorchoice = document.children[0].children[1].children[1].children[0]
-    //getElementsByClassName('blueColor');
-    console.log(colorchoice);
+
+let cellColor;
+let currentColor;
+let currentCell;
+
+document.getElementById('pallete').addEventListener('click',function(newColor){
+  currentColor = newColor.target.id;
+  console.log(currentColor);
+})
+
+
+document.getElementById('grid').addEventListener('click',function(name){
+  name.target.style.background=`${currentColor}`;
 })

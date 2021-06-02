@@ -21,15 +21,21 @@
   }
 
   .pallete{
-      display: grid;
-      grid-template-columns: repeat(2,40px);
-      grid-template-rows: repeat(1,40px);
-      grid-gap: 2px;
+    display: grid;
+    grid-template-columns: repeat(4,40px);
+    grid-template-rows: repeat(1,40px);
+    grid-gap: 2px;
   }
 
-  .redColor {
+  #red {
     background: red;
   }
-  .blueColor{
-      background: blue;
+  #blue{
+    background: blue;
+  }
+  #orange {
+    background: orange;
+  }
+  #green {
+    background: green;
   }
