@@ -5,8 +5,8 @@
   }
   .grid {
     display: grid;
-    grid-template-columns: repeat(2, 80px);
-    grid-template-rows: repeat(2, 80px);
+    grid-template-columns: repeat(20, 40px);
+    grid-template-rows: repeat(20, 40px);
     grid-gap: 5px;
   }
   .cell {
@@ -38,4 +38,36 @@
   }
   #green {
     background: green;
+  }
+  
+  #cyan {
+    background: cyan;  
+  }
+  #purple {
+      background:purple;
+    }
+  #gray {
+      background:gray;
+    }
+    #dodgerblue {
+      background:dodgerblue;
+    }
+    #forrestgreen {
+      background: forestgreen;
+    }
+    #yellow {
+      background:yellow;
+    }
+    #brown {
+      background:brown;
+    } 
+    #teal {
+      background:teal ;
+    } 
+    #white {
+      background:white;
+    }    
+    #black {
+      background:black;
+    }    
   }
