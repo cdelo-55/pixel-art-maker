@@ -1,13 +1,13 @@
 .container {
     background: black;
     display: inline-block;
-    border: 5px solid black;
+    border: 2px solid black;
   }
   .grid {
     display: grid;
-    grid-template-columns: repeat(20, 40px);
+    grid-template-columns: repeat(25, 40px);
     grid-template-rows: repeat(20, 40px);
-    grid-gap: 5px;
+    grid-gap: 2px;
   }
   .cell {
      /* center the cell content */
@@ -21,53 +21,16 @@
   }
 
   .pallete{
-    display: grid;
-    grid-template-columns: repeat(4,40px);
+    display: grid;  
+    grid-template-columns: repeat(14,40px);
     grid-template-rows: repeat(1,40px);
     grid-gap: 2px;
+    border-top: 10px solid darkblue;
   }
-
-  #red {
-    background: red;
-  }
-  #blue{
-    background: blue;
-  }
-  #orange {
-    background: orange;
-  }
-  #green {
-    background: green;
-  }
-  
-  #cyan {
-    background: cyan;  
-  }
-  #purple {
-      background:purple;
-    }
-  #gray {
-      background:gray;
-    }
-    #dodgerblue {
-      background:dodgerblue;
-    }
-    #forrestgreen {
-      background: forestgreen;
-    }
-    #yellow {
-      background:yellow;
-    }
-    #brown {
-      background:brown;
-    } 
-    #teal {
-      background:teal ;
-    } 
-    #white {
-      background:white;
-    }    
-    #black {
-      background:black;
-    }    
-  }
+  .cellcolor{
+    display: flex;  
+    width: 44px;
+    height: 44px;
+    /*grid-template-columns: repeat(1,80px);
+    grid-template-rows: repeat(1,80px);*/
+  }  
